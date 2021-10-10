@@ -18,11 +18,11 @@ function App() {
 
   const addToContacts = (e) => {
     e.preventDefault();
-    const newArray = [...contacts];
-    newArray.push(form);
-    setContacts(newArray);
+    // const newArray = [...contacts];
+    // newArray.push(form);
+    // setContacts(newArray);
 
-    // setContacts([...contacts, form]);
+    setContacts([...contacts, form]);
   };
 
   const deleteContact = (index) => {
